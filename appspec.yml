@@ -37,9 +37,6 @@ files:
 #   section may cause associated deployments to fail.
 permissions:
   - object: /var/www/html
-    pattern: **
-    owner:
-    group:
     mode: 0777
 #      -
 # If you are not running any commands on the Amazon EC2 instance, then remove
